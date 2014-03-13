@@ -8,7 +8,7 @@ script, input_file = argv
 def print_all(f):
 	print f.read()
 
-# find the first line in the file
+# find the beginning of the file
 def rewind(f):
 	f.seek(0)
 
@@ -24,7 +24,7 @@ current_file = open(input_file)
 print "First lets print the entire file:\n"
 print_all(current_file)
 
-# find the first line in the file
+# go back to the very beginning of the file
 print "Now, lets rewind like a tape."
 rewind(current_file)
 
