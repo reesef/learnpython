@@ -1,4 +1,3 @@
-Cats with umbrellas are the coolest cats.
-Don't you know it?
-
-do do do do do do dod o
+This is line 1
+This is line 2
+This is line 3
