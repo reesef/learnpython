@@ -70,6 +70,7 @@ arterisk_arg() # calls this funciton
 
 def function_name(arg1, arg2): # defins a function
 	# function body
+	return arg1, arg2 # return things that can be put in vars and do stuff with
 
 function_name(x, y) # calls a function
 	
